@@ -8,6 +8,6 @@ https://www.sciencedirect.com/science/article/pii/S0377221721010432?via%3Dihub
 
 [time_gurobi.txt](https://github.com/dsancin/mathematical-optimisation-project/blob/main/time_gurobi.txt) contains the results of the dimension analysis, the column oreder is: number of collection points, number of source points, runtime (manually limited to 3 hours) and percentage gap between lower and upper bounds (inf means that no solutions were found).
 
-[Project_Oil VNS.ipynb](https://github.com/dsancin/mathematical-optimisation-project/blob/main/Project_Oil%20VNS.ipynb) contains an attempt at implementing a Variable Neighborhood Search for solving the problem. implented the constructive heuristic and a simplified VNS with only four operations. example solution (same case as the gurobi test). Works only for the smallest case, have to implement more operations to make it work on bigger cases.
+[Project_Oil VNS.ipynb](https://github.com/dsancin/mathematical-optimisation-project/blob/main/Project_Oil%20VNS.ipynb) contains an attempt at implementing a Variable Neighborhood Search for solving the problem. implented the constructive heuristic and a simplified VNS. example solution (same case as the gurobi test), does not reach a perfect solution due to how the algorithm is implemented (when there are only two routes to optimize there are some problems with operations). Analysisi dimension were run sligthly modifying this code.
 
 
